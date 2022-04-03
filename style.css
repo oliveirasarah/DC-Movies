@@ -43,6 +43,27 @@ button:hover {
   align-items: center;
 }
 
+@media only screen and (max-width: 905px) {
+  .dcMovies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 773px) {
+  .dcMovies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 591px) {
+  .dcMovies {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 img {
   width: 200px;
   border: 3px solid #fff;
