@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/600px-DC_Comics_logo.svg.png?20161226021232"
+      type="image/x-icon"
+    />
+    <title>DC Animation Movies</title>
+  </head>
+  <body>
+    <header>
+      <h1>All DC Animation Movies</h1>
+    </header>
+
+    <main>
+      <section class="filters">
+        <button class="all" onclick="displayMovies(movies)">All</button>
+        <button
+          class="filter-standalone"
+          onclick="displayMovies(standaloneFilter)"
+        >
+          Standalone
+        </button>
+        <button class="filter-dcamu" onclick="displayMovies(dcamuFilter)">
+          DCAMU
+        </button>
+        <button class="filter-dcoamu" onclick="displayMovies(dcoamuFilter)">
+          DCOAMU
+        </button>
+        <button class="filter-others" onclick="displayMovies(othersFilter)">
+          Others
+        </button>
+      </section>
+
+      <section class="dcMovies"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
