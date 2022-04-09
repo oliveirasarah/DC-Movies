@@ -428,3 +428,10 @@ const othersFilter = movies.filter(
     item.continuity !== "DCAMU" &&
     item.continuity !== "Standalone"
 );
+
+const header = document.querySelector("header");
+const scrollBack = document.querySelector(".scroll-back");
+
+scrollBack.onclick = () => {
+  header.scrollIntoView();
+};
