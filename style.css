@@ -20,6 +20,9 @@ header {
   margin: 1em;
 }
 
+.filters {
+  margin-bottom: 1em;
+}
 button {
   background-color: inherit;
   border: 1px solid #fff;
@@ -44,10 +47,14 @@ button:hover {
   align-items: center;
 }
 
-@media only screen and (max-width: 905px) {
+@media only screen and (max-width: 912px) {
   .dcMovies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  button {
+    padding: 2em 2em;
+    margin: 0.5em 0.2em;
   }
 }
 
@@ -62,6 +69,14 @@ button:hover {
   .dcMovies {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .movie-continuity {
+    margin-bottom: 1em;
+  }
+
+  button {
+    padding: 1em 1.2em;
+    margin: 0.5em 0.2em;
   }
 }
 
