@@ -369,7 +369,7 @@ let movies = [
   {
     name: "Catwoman: Hunted",
     poster:
-      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRwEEkIi0ILaqFaHXaLt25iAXopdPQZypPt4umxE087saztOuDS",
+      "https://m.media-amazon.com/images/M/MV5BOGJkNGUzM2YtNzMzOS00Yjg4LWIyZWMtMzc4OGJhMDVmMGUyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_FMjpg_UX1000_.jpg",
     releaseDate: "February 8, 2022",
     continuity: "Young Justice (unofficial)",
   },
