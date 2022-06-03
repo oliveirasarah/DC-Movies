@@ -13,6 +13,7 @@ body {
   background-color: #040d15;
   color: #fff;
   margin: 0 0.6em;
+  scroll-behavior: smooth;
 }
 
 header {
