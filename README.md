@@ -6,7 +6,3 @@ I'm a huge fan of DC animations, so I thought I'd make this small project to pra
 <img src="dc-img.png">
 <figcaption>Preview</figcaption>
 </figure>
-
-# Page link 
-
-https://oliveirasarah.github.io/dc-movies/
