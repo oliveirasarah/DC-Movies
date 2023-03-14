@@ -9,4 +9,4 @@ I'm a huge fan of DC animations, so I thought I'd make this small project to pra
 
 # Page link 
 
-https://sarah-oli.github.io/dc-movies/
+https://oliveirasarah.github.io/dc-movies/
