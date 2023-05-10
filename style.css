@@ -83,8 +83,6 @@ button:hover {
 
 img {
   width: 200px;
-  border: 3px solid #fff;
-  border-radius: 5px;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
