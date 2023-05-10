@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Kumbh+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
 }
 
@@ -24,6 +24,7 @@ header {
 .filters {
   margin-bottom: 1em;
 }
+
 button {
   background-color: inherit;
   border: 1px solid #fff;
@@ -48,6 +49,24 @@ button:hover {
   align-items: center;
 }
 
+img {
+  width: 200px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-continuity {
+  font-style: italic;
+}
+
+.movie-title {
+  margin-bottom: 0.6em;
+}
+
+.fa-angle-up {
+  padding: 0.4em;
+}
+
+/* Media Queries */
 @media only screen and (max-width: 912px) {
   .dcMovies {
     display: grid;
@@ -79,21 +98,4 @@ button:hover {
     padding: 1em 1.2em;
     margin: 0.5em 0.2em;
   }
-}
-
-img {
-  width: 200px;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-.movie-continuity {
-  font-style: italic;
-}
-
-.movie-title {
-  margin-bottom: 0.6em;
-}
-
-.fa-angle-up {
-  padding: 0.4em;
 }
