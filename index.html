@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <link
       rel="shortcut icon"
       href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/600px-DC_Comics_logo.svg.png?20161226021232"
@@ -23,22 +23,11 @@
 
     <main>
       <section class="filters">
-        <button class="all" onclick="displayMovies(movies)">All</button>
-        <button
-          class="filter-standalone"
-          onclick="displayMovies(standaloneFilter)"
-        >
-          Standalone
-        </button>
-        <button class="filter-dcamu" onclick="displayMovies(dcamuFilter)">
-          DCAMU
-        </button>
-        <button class="filter-dcoamu" onclick="displayMovies(dcoamuFilter)">
-          DCOAMU
-        </button>
-        <button class="filter-others" onclick="displayMovies(othersFilter)">
-          Others
-        </button>
+        <button id="all" class="filter">All</button>
+        <button id="standalone" class="filter">Standalone</button>
+        <button id="dcamu" class="filter">DCAMU</button>
+        <button id="dcoamu" class="filter">DCOAMU</button>
+        <button id="others" class="filter">Others</button>
       </section>
 
       <section class="dcMovies"></section>
@@ -48,6 +37,6 @@
       </button>
     </main>
 
-    <script src="script.js"></script>
+    <script type="module" src="/js/index.js"></script>
   </body>
 </html>

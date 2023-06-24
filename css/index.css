@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -8,12 +8,23 @@
   font-weight: 300;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   background-color: #040d15;
-  color: #fff;
+  color: #f7f7f7;
   margin: 0 0.6em;
-  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ddd;
 }
 
 header {
@@ -27,7 +38,7 @@ header {
 
 button {
   background-color: inherit;
-  border: 1px solid #fff;
+  border: 1px solid #f7f7f7;
   color: #fff;
   padding: 2em 3em;
   font-size: 1em;
@@ -37,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: #fff;
+  background-color: #f7f7f7;
   color: #040d15;
 }
 
