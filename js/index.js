@@ -1,40 +1,38 @@
 import movies from "./config.js";
 
-const dcMovies = document.querySelector(".dcMovies");
+const dcMovies = document.querySelector(".dc-movies");
 
 function displayMovies(array) {
   dcMovies.innerHTML = "";
 
-  for (let i = 0; i < array.length; i++) {
-    let movie = array[i];
-
+  array.map((el) => {
     // Creating the elements
-    let movie_element = document.createElement("div");
+    let movieElement = document.createElement("div");
     let title = document.createElement("h2");
     let cover = document.createElement("div");
     let release = document.createElement("div");
     let continuity = document.createElement("div");
 
     // Giving classes to each one of them for css
-    movie_element.classList.add("list-movie");
-    title.classList.add("movie-title");
-    cover.classList.add("movie-cover");
-    release.classList.add("movie-release");
-    continuity.classList.add("movie-continuity");
+    movieElement.classList.add("movie");
+    title.classList.add("movie__title");
+    cover.classList.add("movie__cover");
+    release.classList.add("movie__release");
+    continuity.classList.add("movie__continuity");
 
     // Getting the data from the API and injecting it in the elements
-    title.innerText = movie.name;
-    cover.innerHTML = `<img src=${movie.poster}>`;
-    release.innerText = movie.releaseDate;
-    continuity.innerText = movie.continuity;
+    title.innerText = el.name;
+    cover.innerHTML = `<img src=${el.poster}>`;
+    release.innerText = el.releaseDate;
+    continuity.innerText = el.continuity;
 
     // Appending each element to their significant parent
-    movie_element.appendChild(title);
-    movie_element.appendChild(cover);
-    movie_element.appendChild(release);
-    movie_element.appendChild(continuity);
-    dcMovies.appendChild(movie_element);
-  }
+    movieElement.appendChild(title);
+    movieElement.appendChild(cover);
+    movieElement.appendChild(release);
+    movieElement.appendChild(continuity);
+    dcMovies.appendChild(movieElement);
+  });
 }
 
 displayMovies(movies);
@@ -80,9 +78,6 @@ filters.forEach((filter) => {
   });
 });
 
-const header = document.querySelector("header");
-const scrollBack = document.querySelector(".scroll-back");
+const scrollBack = document.querySelector("#scroll-back");
 
-scrollBack.onclick = () => {
-  header.scrollIntoView();
-};
+scrollBack.onclick = () => document.querySelector("header").scrollIntoView();

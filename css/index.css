@@ -52,7 +52,7 @@ button:hover {
   color: #040d15;
 }
 
-.dcMovies {
+.dc-movies {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
@@ -65,11 +65,11 @@ img {
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
-.movie-continuity {
+.movie__continuity {
   font-style: italic;
 }
 
-.movie-title {
+.movie__title {
   margin-bottom: 0.6em;
 }
 
@@ -79,7 +79,7 @@ img {
 
 /* Media Queries */
 @media only screen and (max-width: 912px) {
-  .dcMovies {
+  .dc-movies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -90,18 +90,18 @@ img {
 }
 
 @media only screen and (max-width: 773px) {
-  .dcMovies {
+  .dc-movies {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 591px) {
-  .dcMovies {
+  .dc-movies {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .movie-continuity {
+  .movie__continuity {
     margin-bottom: 1em;
   }
 
