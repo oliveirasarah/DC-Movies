@@ -1,8 +1,5 @@
 # All DC Animation Movies
 
-I'm a huge fan of DC animations, so I thought I'd make this small project to practice pure JS
+I'm a huge fan of DC animations, so I thought I'd make this small project to practice.
 
-<figure>
-<img src="/img/dc-img.png">
-<figcaption>Preview</figcaption>
-</figure>
+At first it was done with pure JS, but I've changed it to ReactJS

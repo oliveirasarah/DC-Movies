@@ -2,41 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <title>DC Universe Animated Original Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="shortcut icon"
-      href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/600px-DC_Comics_logo.svg.png?20161226021232"
-      type="image/x-icon"
+      href="https://fonts.googleapis.com/css2?family=Lexend:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
-    <title>DC Animation Movies</title>
-    <script
-      src="https://kit.fontawesome.com/a14430386d.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <header>
-      <h1>All DC Animation Movies</h1>
+      <h1 class="page-title">DC Universe Animated Original Movies</h1>
     </header>
-
-    <main>
-      <section class="filters">
-        <button id="all" class="filter">All</button>
-        <button id="standalone" class="filter">Standalone</button>
-        <button id="dcamu" class="filter">DCAMU</button>
-        <button id="dcoamu" class="filter">DCOAMU</button>
-        <button id="others" class="filter">Others</button>
-      </section>
-
-      <section class="dc-movies"></section>
-
-      <button id="scroll-back">
-        Scroll back to top <i class="fa-solid fa-angle-up"></i>
-      </button>
-    </main>
-
-    <script type="module" src="/js/index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
