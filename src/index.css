@@ -77,6 +77,11 @@ button:hover {
   color: var(--dark);
 }
 
+button.active {
+  background-color: var(--accent);
+  color: var(--dark);
+}
+
 .dc-movies {
   margin-top: 4rem;
   margin-bottom: 4rem;
