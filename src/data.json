@@ -2,7 +2,7 @@
   "movies": [
     {
       "name": "Superman: Doomsday",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/c/c5/Superman_Doomsday_logo.JPG",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGJiYzE4YzQtYzcwZC00N2JkLTgyZjQtNjVlMjg4YzgzMTRmXkEyXkFqcGdeQXVyMTY3NTgwODk5._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "September 21, 2007",
       "continuity": "Standalone"
     },
@@ -14,49 +14,49 @@
     },
     {
       "name": "Batman: Gotham Knight",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/f/f0/Batman_Gotham_Knight.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2I0YTFjOTUtMWYzNC00ZTgyLTk2NWEtMmE3N2VlYjEwN2JlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "July 8, 2008",
-      "continuity": "Nolanverse (unofficial)"
+      "continuity": "Nolanverse"
     },
     {
       "name": "Wonder Woman",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/a/a9/Ww_film_2009_bluray.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzU1NmNmNTgtMTUyYS00ZmRmLTkzOWItOTY2ZWZiYjVkYzkzXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg",
       "releaseDate": "March 3, 2009",
       "continuity": "Standalone"
     },
     {
       "name": "Green Lantern: First Flight",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/48/GL_First_Flight.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWQ4ZGExZGMtYjZjNS00NWMyLThmZTUtZjM0N2UxMzU5MTk5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "July 28, 2009",
       "continuity": "Standalone"
     },
     {
       "name": "Superman/Batman: Public Enemies",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/9/9f/Sup_bat_public_enemies_dvd.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDc5NTFiMzgtZWJiOS00N2M1LWJmOGYtZmNjMzFhMzcxZjRiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "September 29, 2009",
-      "continuity": "Continues in the Superman/Batman comic book series"
+      "continuity": "Superman/Batman (Reality)"
     },
     {
       "name": "Justice League: Crisis on Two Earths",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/41/Justice_League-Crisis_On_Two_Earths.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzg0ODZjNjUtNmVhZi00NTYxLWExNWMtMWI3MDFiMjhiNjc2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "July 8, 2008",
       "continuity": "Continues in: Doom"
     },
     {
       "name": "Batman: Under the Red Hood",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/4c/Batman_under_the_red_hood_poster.jpg",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8129393_p_v10_ay.jpg",
       "releaseDate": "July 7, 2010",
       "continuity": "Standalone"
     },
     {
       "name": "Superman/Batman: Apocalypse",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/f/f2/SBApocalypse.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjk3ODhmNjgtZjllOC00ZWZjLTkwYzQtNzc1Y2ZhMjY2ODE0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "September 28, 2010",
-      "continuity": "Continues in the Superman/Batman comic book series"
+      "continuity": "Superman/Batman (Reality)"
     },
     {
       "name": "All-Star Superman",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/AllStarSuperman.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDBmNTkxMGYtYzJmNy00MTU3LWFhMWItNmNiMDBiOTViODU5XkEyXkFqcGdeQXVyMTY3NTgwODk5._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "February 22, 2011\t",
       "continuity": "Standalone"
     },
@@ -68,13 +68,13 @@
     },
     {
       "name": "Batman: Year One",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/8/8b/Bat_year_one_film.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDc1ZjY4ZGUtY2RiNC00MmUyLWE2ZGYtMTNlNGJmMDU5ZDk4XkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
       "releaseDate": "October 18, 2011",
-      "continuity": "Continues in: Year One / Dark Knight Returns comics"
+      "continuity": "Batman: Year One"
     },
     {
       "name": "Justice League: Doom",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d4/Jla_doom_2012.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTFlMzdkMDgtNzJmZC00ZmE3LThkYzktNGZmNmMzZmNhYmY5XkEyXkFqcGdeQXVyNDYwMjI1MzI@._V1_.jpg",
       "releaseDate": "February 28, 2012",
       "continuity": "Crisis on Two Earths / Doom"
     },
@@ -86,13 +86,13 @@
     },
     {
       "name": "Batman: The Dark Knight Returns",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/e/e9/Batman_The_Dark_Knight_Returns_%28film%29.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzIxMDkxNDM2M15BMl5BanBnXkFtZTcwMDA5ODY1OQ@@._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "September 25, 2012 (part 1)",
       "continuity": "Year One / Dark Knight Returns comics"
     },
     {
       "name": "Batman: The Dark Knight Returns",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/e/e9/Batman_The_Dark_Knight_Returns_%28film%29.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzI2MzlmZTMtYjg2Zi00ZjA2LTg3ZjQtZGJlOTk3NjJlNmRjXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_.jpg",
       "releaseDate": "January 29, 2013 (part 2)",
       "continuity": "Year One / Dark Knight Returns comics"
     },
@@ -104,13 +104,13 @@
     },
     {
       "name": "Justice League: The Flashpoint Paradox",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d5/Justice_League_-_The_Flashpoint_Paradox.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDMxYWI0ZDAtZjQ5YS00NDRlLTgyNTQtMGU0OTM0Yzg0ZGU3XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_.jpg",
       "releaseDate": "July 30, 2013\t",
       "continuity": "DCAMU"
     },
     {
       "name": "Justice League: War",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/f/f4/Justice_League-War.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzA4ZjA3NzUtNDhjNS00OGNlLWI4ZWUtYzhkMmJiZDU2ZWExXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "releaseDate": "February 4, 2014",
       "continuity": "DCAMU"
     },
@@ -122,19 +122,19 @@
     },
     {
       "name": "Batman: Assault on Arkham",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/c/c0/Batman_Assault_on_Arkham_cover.jpeg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDU1ZGRiY2YtYmZjMi00ZDQwLWJjMWMtNzUwNDMwYjQ4ZTVhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "July 29, 2014",
       "continuity": "Arkhamverse"
     },
     {
       "name": "Justice League: Throne of Atlantis",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/9/9e/Justice_League_-_Throne_of_Atlantis.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGYwYTBjYTEtODE1NS00OTA2LTk5ZTctM2I0ZWViMTc4NDljXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
       "releaseDate": "January 13, 2015",
       "continuity": "DCAMU"
     },
     {
       "name": "Batman vs. Robin",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/0/00/Bat_vs_robin_cover.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjI0ODY2MDE5Nl5BMl5BanBnXkFtZTgwMTk0NTcyNTE@._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "April 7, 2015",
       "continuity": "DCAMU"
     },
@@ -152,13 +152,13 @@
     },
     {
       "name": "Justice League vs. Teen Titans",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Justice_League_vs._Teen_Titans.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzRiYmQxNzctNmEwZS00NjljLWI0MjctYzYyODEzZGU0MmNiXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "March 29, 2016",
       "continuity": "DCAMU"
     },
     {
       "name": "Batman: The Killing Joke",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/1/11/Batman-The_Killing_Joke_%28film%29.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTdjZTliODYtNWExMi00NjQ1LWIzN2MtN2Q5NTg5NTk3NzliL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "July 22, 2016",
       "continuity": "Standalone"
     },
@@ -166,11 +166,11 @@
       "name": "Justice League Dark",
       "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjE6hS-aWCWFPAjdmyjj4Y4PXgxjLS-EteasAMeM7RF8B5Iq9z",
       "releaseDate": "January 24, 2017",
-      "continuity": "Standalone"
+      "continuity": "DCAMU"
     },
     {
       "name": "Teen Titans: The Judas Contract",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/4/4f/Teen_Titans_The_Judas_Contract.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzFlZTUwZjEtYjRiNC00NmM5LTk1NjItNjY4Y2YwMTVlOTc5XkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "March 31, 2017",
       "continuity": "DCAMU"
     },
@@ -196,11 +196,11 @@
       "name": "The Death of Superman",
       "poster": "https://m.media-amazon.com/images/M/MV5BNWZkMjYzNjctYTMyZi00MjdjLTg5MzMtYjdhM2M0MTI5ZWFkXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "July 24, 2018",
-      "continuity": "Standalone"
+      "continuity": "DCAMU"
     },
     {
       "name": "Constantine: City of Demons",
-      "poster": "https://i.pinimg.com/736x/57/1f/45/571f459a3a742947ce1b98dd539ced52.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjM3M2EzYzAtYzcxYi00MWU2LWFhNmItNGJiZjMyZTUyNTQyXkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_.jpg",
       "releaseDate": "October 9, 2018",
       "continuity": "DCAMU"
     },
@@ -244,11 +244,11 @@
       "name": "Superman: Man of Tomorrow",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTQ2M2M2OTYtM2Y1ZC00Y2ExLTk0NTQtNDViYWU4YjhjN2I5XkEyXkFqcGdeQXVyNzU3NjUxMzE@._V1_.jpg",
       "releaseDate": "August 23, 2020",
-      "continuity": "DCOAMU"
+      "continuity": "Tomorrowverse"
     },
     {
       "name": "Batman: Soul of the Dragon",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzgwM2UyODctY2RkNC00NzFiLWI0YmMtN2NmMWFjMzQzZWE1XkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YjZlZjAtYzljOS00ZjViLWE1NGYtMzlmZDZjZTcxYzRiXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
       "releaseDate": "January 12, 2021",
       "continuity": "Standalone"
     },
@@ -256,23 +256,23 @@
       "name": "Justice Society: World War II",
       "poster": "https://m.media-amazon.com/images/M/MV5BMjQ4Njk5ODMtNjZhMC00OTRjLTg3NzktYjViNmE1ZWE5MzhlXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
       "releaseDate": "April 27, 2021",
-      "continuity": "DCOAMU"
+      "continuity": "Tomorrowverse"
     },
     {
       "name": "Batman: The Long Halloween (film)(part 1)",
       "poster": "https://m.media-amazon.com/images/M/MV5BOWExMjU1OTctNGIwZS00MjY2LWE2YWUtZWVlOTRjZDFhODVjXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
       "releaseDate": "June 22, 2021",
-      "continuity": "DCOAMU"
+      "continuity": "Tomorrowverse"
     },
     {
       "name": "Batman: The Long Halloween (film)(part 2)",
       "poster": "https://m.media-amazon.com/images/M/MV5BOWExMjU1OTctNGIwZS00MjY2LWE2YWUtZWVlOTRjZDFhODVjXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
       "releaseDate": "July 27, 2021",
-      "continuity": "DCOAMU"
+      "continuity": "Tomorrowverse"
     },
     {
       "name": "Injustice",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/7/71/Injustice_%282021_film%29.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzA3ZmI1NzMtMTcxMi00ODg4LWFhMGItMTE2ZjIxODUzZTFiXkEyXkFqcGdeQXVyMTA1NzAwODMz._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "October 19, 2021",
       "continuity": "Standalone"
     },
@@ -280,7 +280,43 @@
       "name": "Catwoman: Hunted",
       "poster": "https://m.media-amazon.com/images/M/MV5BOGJkNGUzM2YtNzMzOS00Yjg4LWIyZWMtMzc4OGJhMDVmMGUyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_FMjpg_UX1000_.jpg",
       "releaseDate": "February 8, 2022",
-      "continuity": "Young Justice (unofficial)"
+      "continuity": "Standalone"
+    },
+    {
+      "name": "Green Lantern: Beware My Power",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzI4NWRiYjUtYjQ3Ni00YWUyLTg4YzUtOTk3OTViNzNiYjYyXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_FMjpg_UX1000_.jpg",
+      "releaseDate": "July 26, 2022",
+      "continuity": "Tomorrowverse"
+    },
+    {
+      "name": "Batman and Superman: Battle of the Super Sons",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22548638_p_v13_aa.jpg",
+      "releaseDate": "October 18, 2022",
+      "continuity": "Standalone"
+    },
+    {
+      "name": "Batman: The Doom That Came to Gotham",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTkyMzE0MzAtYzM2Zi00MjkzLWFkOWQtZTU0Y2VjMDM1MTM1XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_.jpg",
+      "releaseDate": "March 28, 2023",
+      "continuity": "Standalone"
+    },
+    {
+      "name": "Legion of Super-Heroes",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYwNjhkN2QtNTQwYS00YTJlLThmNWQtMzViZWQzYzUzNWJlXkEyXkFqcGdeQXVyMTMxODQ2MjI4._V1_.jpg",
+      "releaseDate": "February 7, 2023",
+      "continuity": "Tomorrowverse"
+    },
+    {
+      "name": "Justice League: Warworld",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGNlODdjYzgtMDUwZC00ZmFlLWI1OWUtNDkyNDc2YmYxNDVkXkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_.jpg",
+      "releaseDate": "July 25, 2023",
+      "continuity": "Tomorrowverse"
+    },
+    {
+      "name": "Justice League: Crisis on Infinite Earths, Part One",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzg1MWQ5NzgtZjlhZi00MjU4LThmZDUtOWQ5ZjMzN2ZlODNkXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
+      "releaseDate": "January 9, 2024",
+      "continuity": "Tomorrowverse"
     }
   ]
 }

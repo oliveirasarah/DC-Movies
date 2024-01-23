@@ -12,11 +12,13 @@ const standaloneFilter = MOVIES.filter(
 
 const dcamuFilter = MOVIES.filter(({ continuity }) => continuity == "DCAMU");
 
-const dcoamuFilter = MOVIES.filter(({ continuity }) => continuity == "DCOAMU");
+const tvFilter = MOVIES.filter(
+  ({ continuity }) => continuity == "Tomorrowverse"
+);
 
 const othersFilter = MOVIES.filter(
   ({ continuity }) =>
-    continuity !== "DCOAMU" &&
+    continuity !== "Tomorrowverse" &&
     continuity !== "DCAMU" &&
     continuity !== "Standalone"
 );
@@ -42,23 +44,23 @@ export default function App() {
       <main>
         <section className="filters">
           <Filter
-            title="All"
+            title={`All (${MOVIES.length})`}
             onClick={() => setMovies(displayMovies(MOVIES))}
           />
           <Filter
-            title="Standalone"
+            title={`Standalone (${standaloneFilter.length})`}
             onClick={() => setMovies(displayMovies(standaloneFilter))}
           />
           <Filter
-            title="DCAMU"
+            title={`DCAMU (${dcamuFilter.length})`}
             onClick={() => setMovies(displayMovies(dcamuFilter))}
           />
           <Filter
-            title="DCOAMU"
-            onClick={() => setMovies(displayMovies(dcoamuFilter))}
+            title={`Tomorrowverse (${tvFilter.length})`}
+            onClick={() => setMovies(displayMovies(tvFilter))}
           />
           <Filter
-            title="Others"
+            title={`Others (${othersFilter.length})`}
             onClick={() => setMovies(displayMovies(othersFilter))}
           />
         </section>
