@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
 
 export default function ScrollBackBtn() {
   return (
@@ -9,5 +9,5 @@ export default function ScrollBackBtn() {
     >
       <FontAwesomeIcon icon={faArrowUp} />
     </button>
-  );
+  )
 }

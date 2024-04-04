@@ -6,5 +6,5 @@ export default function Filter({ title, onClick, isSelected, count }) {
     >
       {title} ({count})
     </button>
-  );
+  )
 }

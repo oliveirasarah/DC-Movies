@@ -6,5 +6,5 @@ export default function Movie({ name, poster, releaseDate, continuity }) {
       <p className="movie__release">{releaseDate}</p>
       <p className="movie__continuity">{continuity}</p>
     </div>
-  );
+  )
 }

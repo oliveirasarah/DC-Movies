@@ -86,8 +86,7 @@ button.active {
   margin-top: 4rem;
   margin-bottom: 4rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
   row-gap: 50px;
   align-items: center;
 }
@@ -113,10 +112,6 @@ button.active {
   box-shadow: 0px 0px 5px rgba(22, 22, 22, 0.1);
 }
 
-.movie__cover:hover {
-  transform: scale(1.4);
-}
-
 .movie__release {
   color: #c7c7c7;
 }
@@ -124,6 +119,10 @@ button.active {
 .movie__continuity {
   font-style: italic;
   max-width: 80%;
+}
+
+.movie__continuity.hidden {
+  display: none;
 }
 
 .fa-arrow-up {
@@ -139,7 +138,28 @@ button.active {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 2000px) {
+  .dc-movies {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .dc-movies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .dc-movies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
   .dc-movies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
