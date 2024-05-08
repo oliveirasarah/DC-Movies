@@ -30,7 +30,9 @@ export default function App() {
 
   function selectFilter(clickedOption, array) {
     setSelectedOption(clickedOption)
-    let selectedArray = array.map((el) => <Movie {...el} />)
+    let selectedArray = array.map((el) => (
+      <Movie key={crypto.randomUUID()} {...el} />
+    ))
     setMovies(selectedArray)
   }
 
@@ -48,7 +50,7 @@ export default function App() {
     <>
       {showButton && <ScrollBackBtn />}
       <main>
-        <section className="filters">
+        <section className="filters-box">
           <Filter
             isSelected={selectedOption === "all"}
             title="All"
