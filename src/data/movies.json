@@ -5,7 +5,7 @@
     "releaseDate": "September 21, 2007",
     "continuity": "Standalone",
     "id": 0,
-    "watched": true
+    "watched": false
   },
   {
     "name": "Justice League: The New Frontier",
@@ -21,7 +21,7 @@
     "releaseDate": "July 8, 2008",
     "continuity": "Nolanverse",
     "id": 2,
-    "watched": true
+    "watched": false
   },
   {
     "name": "Wonder Woman",
@@ -229,7 +229,7 @@
     "releaseDate": "March 31, 2017",
     "continuity": "DCAMU",
     "id": 28,
-    "watched": true
+    "watched": false
   },
   {
     "name": "Batman and Harley Quinn",

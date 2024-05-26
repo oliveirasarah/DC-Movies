@@ -1,6 +1,7 @@
 import movies from "../data/movies.json"
 
-localStorage.movies = JSON.stringify(movies)
+if (!localStorage.movies) localStorage.movies = JSON.stringify(movies)
+
 const MOVIES = JSON.parse(localStorage.movies)
 
 const standaloneFilter = MOVIES.filter(

@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 import styled from "styled-components"
+import { MOVIES } from "../../js/filters"
 
 const StyledMovie = styled.div`
   display: flex;
@@ -66,10 +67,16 @@ const Poster = styled.img`
   background-color: rgba(0, 0, 0, 0.5);
 `
 
-function Movie({ name, poster, releaseDate, continuity, watched }) {
+function Movie({ id, name, poster, releaseDate, continuity, watched }) {
   const [isWatched, setIsWatched] = useState(watched)
+
   const toggleWatched = () => {
     setIsWatched((prevWatched) => !prevWatched)
+    watched = isWatched
+    MOVIES.map((movie) => {
+      if (movie.id === id) movie.watched = !movie.watched
+    })
+    localStorage.movies = JSON.stringify(MOVIES)
   }
 
   return (

@@ -8,8 +8,8 @@ const Paragraph = styled.p`
   font-weight: 500;
 `
 
-function NoMovies() {
+function NoWatchedMovies() {
   return <Paragraph>There are no watched movies in this category</Paragraph>
 }
 
-export default NoMovies
+export default NoWatchedMovies

@@ -16,7 +16,7 @@ import Header from "./components/Header"
 import Filters from "./components/Filters/Filters"
 import Movies from "./components/Movies/Movies"
 import WatchedBtn from "./components/WatchedBtn"
-import NoMovies from "./components/Movies/NoMovies"
+import NoWatchedMovies from "./components/Movies/NoWatchedMovies"
 
 function App() {
   const [movies, setMovies] = useState(MOVIES)
@@ -115,7 +115,7 @@ function App() {
         />
 
         {movies.length === 0 ? (
-          <NoMovies />
+          <NoWatchedMovies />
         ) : (
           <Movies>
             {movies.map((movie) => (
