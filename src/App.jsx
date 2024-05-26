@@ -1,89 +1,131 @@
 import { useEffect, useState } from "react"
-import Filter from "./components/Filter"
-import Movie from "./components/Movie"
+
+import Filter from "./components/Filters/Filter"
+import Movie from "./components/Movies/Movie"
 import ScrollBackBtn from "./components/ScrollBackBtn"
-import MOVIES from "./movies.json"
 
-const standaloneFilter = MOVIES.filter(
-  ({ continuity }) => continuity == "Standalone"
-)
+import {
+  MOVIES,
+  standaloneFilter,
+  dcamuFilter,
+  tvFilter,
+  othersFilter,
+} from "./js/filters"
 
-const dcamuFilter = MOVIES.filter(({ continuity }) => continuity == "DCAMU")
+import Header from "./components/Header"
+import Filters from "./components/Filters/Filters"
+import Movies from "./components/Movies/Movies"
+import WatchedBtn from "./components/WatchedBtn"
+import NoMovies from "./components/Movies/NoMovies"
 
-const tvFilter = MOVIES.filter(
-  ({ continuity }) => continuity == "Tomorrowverse"
-)
-
-const othersFilter = MOVIES.filter(
-  ({ continuity }) =>
-    continuity !== "Tomorrowverse" &&
-    continuity !== "DCAMU" &&
-    continuity !== "Standalone"
-)
-
-export default function App() {
-  const [movies, setMovies] = useState(
-    MOVIES.map((el) => <Movie key={crypto.randomUUID()} {...el} />)
-  )
+function App() {
+  const [movies, setMovies] = useState(MOVIES)
   const [showButton, setShowButton] = useState(false)
   const [selectedOption, setSelectedOption] = useState("all")
+  const [watchedFilter, setWatchedFilter] = useState(false)
 
-  function selectFilter(clickedOption, array) {
-    setSelectedOption(clickedOption)
-    let selectedArray = array.map((el) => (
-      <Movie key={crypto.randomUUID()} {...el} />
-    ))
-    setMovies(selectedArray)
-  }
+  const applyWatchedFilter = (array) =>
+    array.filter(({ watched }) => watched === true)
+
+  const selectFilter = (clickedOption) => setSelectedOption(clickedOption)
+
+  const filterWatchedMovies = () =>
+    setWatchedFilter((prevWatchedFilter) => !prevWatchedFilter)
 
   useEffect(() => {
-    function toggleButtonRendering() {
+    const toggleButtonRendering = () =>
       document.documentElement.scrollTop > 100
         ? setShowButton(true)
         : setShowButton(false)
-    }
 
     window.addEventListener("scroll", toggleButtonRendering)
   }, [])
 
+  useEffect(() => {
+    let array
+
+    switch (selectedOption) {
+      case "all":
+        array = MOVIES
+        break
+      case "standalone":
+        array = standaloneFilter
+        break
+      case "dcamu":
+        array = dcamuFilter
+        break
+      case "tv":
+        array = tvFilter
+        break
+      case "others":
+        array = othersFilter
+        break
+    }
+
+    if (watchedFilter) {
+      array = applyWatchedFilter(array)
+    }
+
+    setMovies(array)
+  }, [watchedFilter, selectedOption])
+
   return (
     <>
       {showButton && <ScrollBackBtn />}
+
+      <Header />
+
       <main>
-        <section className="filters-box">
+        <Filters>
           <Filter
             isSelected={selectedOption === "all"}
             title="All"
             count={MOVIES.length}
-            onClick={() => selectFilter("all", MOVIES)}
+            onClick={() => selectFilter("all")}
           />
           <Filter
             isSelected={selectedOption === "standalone"}
             title="Standalone"
             count={standaloneFilter.length}
-            onClick={() => selectFilter("standalone", standaloneFilter)}
+            onClick={() => selectFilter("standalone")}
           />
           <Filter
             isSelected={selectedOption === "dcamu"}
             title="DCAMU"
             count={dcamuFilter.length}
-            onClick={() => selectFilter("dcamu", dcamuFilter)}
+            onClick={() => selectFilter("dcamu")}
           />
           <Filter
             isSelected={selectedOption === "tv"}
             title="Tomorrowverse"
             count={tvFilter.length}
-            onClick={() => selectFilter("tv", tvFilter)}
+            onClick={() => selectFilter("tv")}
           />
           <Filter
             isSelected={selectedOption === "others"}
             title="Others"
             count={othersFilter.length}
-            onClick={() => selectFilter("others", othersFilter)}
+            onClick={() => selectFilter("others")}
           />
-        </section>
-        <section className="dc-movies">{movies}</section>
+        </Filters>
+
+        <WatchedBtn
+          onClick={filterWatchedMovies}
+          watchedFilter={watchedFilter}
+        />
+
+        {movies.length === 0 ? (
+          <NoMovies />
+        ) : (
+          <Movies>
+            {movies.map((movie) => (
+              <Movie key={movie.id} {...movie} />
+            ))}
+          </Movies>
+        )}
       </main>
     </>
   )
 }
+
+export default App

@@ -1,13 +1,27 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
+import styled from "styled-components"
 
-export default function ScrollBackBtn() {
+const Button = styled.button`
+  padding: 3px 5px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 99;
+
+  .fa-arrow-up {
+    padding: 0.4rem;
+  }
+`
+
+function ScrollBackBtn() {
+  const scrollTop = () => (document.documentElement.scrollTop = 0)
+
   return (
-    <button
-      id="scroll-back"
-      onClick={() => (document.documentElement.scrollTop = 0)}
-    >
+    <Button className="btn btn--accent" onClick={scrollTop}>
       <FontAwesomeIcon icon={faArrowUp} />
-    </button>
+    </Button>
   )
 }
+
+export default ScrollBackBtn
